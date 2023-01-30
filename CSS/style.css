@@ -1,0 +1,89 @@
+body {
+    background-color: #161616;
+    color: white;
+    font-family: "poppins";
+    padding: 20rem;
+}
+
+.container {
+    display: flex;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projeto-cartao {
+    width: 100%;
+    background-color: #26252B;
+    cursor: pointer;
+    transition: all 0.5s;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.imagem-cartao {
+    margin: auto;
+    width: 100%;
+}
+
+.conteudo {
+    width: 85%;
+    margin: auto;
+    padding: 3%;
+}
+
+img {
+    width: 100%;
+    height: fit-content;
+    background-color: #282828;
+    object-fit: contain;
+}
+
+.projeto-cartao h2,
+.projeto-cartao p {
+    transition: all 0.5s;
+    margin-bottom: 4%;
+}
+
+.projeto-cartao p {
+    font-size: 1.2vw;
+    opacity: 0.7;
+}
+
+.projeto-cartao:hover {
+    transform: translate3d(0px, 0px, 0px) scale3d(1.02, 1.02, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.projeto-cartao h2 {
+    font-size: 2vw;
+}
+
+.projeto-cartao:hover h2 {
+    color: #A82C2C;
+}
+
+.projeto-cartao:hover p {
+    opacity: 1;
+}
+
+.btn {
+    width: 0%;
+    height: 7vh;
+    background-color: #A82C2C;
+    transition: all 0.5s;
+}
+
+.projeto-cartao:hover .btn {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
